@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-    --color-background: #f9f9f9;
-    --color-foreground: #292627;
+    --color-background: #ffffff;
+    --color-foreground: #000000;
     --color-muted: #fdfdfd;
     --color-muted-foreground: #818181;
     --color-popover: #ffffff;
@@ -31,22 +31,30 @@
 }
 
 body {
-    @apply leading-tight  bg-background text-foreground tracking-wide;
+    @apply bg-background text-foreground tracking-wide leading-normal ;
 }
 
 
 button {
-    @apply rounded-full h-[30px] w-[100px] bg-gradient-to-r from-primary via-primary via-primary to-gradient transition-all ease-in-out cursor-pointer text-white hover:-translate-y-1 ;
+    @apply rounded-full h-[40px] font-medium px-5 bg-gradient-to-r from-primary via-primary to-gradient transition-all ease-in-out cursor-pointer text-white hover:-translate-y-1 ;
 }
 
 a {
     @apply transition-all ease-in-out hover:text-primary;
 }
 
-span{
-    @apply bg-gradient-to-r from-gradient via-gradient via-gradient to-primary text-transparent bg-clip-text
+.work {
+    @apply bg-gradient-to-r from-gradient via-gradient  to-primary text-transparent bg-clip-text
+}
+
+span {
+    @apply bg-gradient-to-r from-primary via-primary to-gradient text-transparent bg-clip-text
+}
+
+.stat {
+    @apply bg-gradient-to-r from-primary  to-gradient text-transparent bg-clip-text
 }
 
 .gradient {
-    @apply bg-gradient-to-r from-primary via-primary via-primary to-gradient
+    @apply bg-gradient-to-r from-primary via-primary  to-gradient
 }
