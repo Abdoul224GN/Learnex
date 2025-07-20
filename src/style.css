@@ -2,7 +2,7 @@
 
 @theme {
     --color-background: #f9f9f9;
-    --color-foreground: #050001;
+    --color-foreground: #292627;
     --color-muted: #efefef;
     --color-muted-foreground: #818181;
     --color-popover: #ffffff;
@@ -31,12 +31,22 @@
 }
 
 body {
-    @apply leading-tight bg-background;
+    @apply leading-tight  bg-background text-foreground;
 }
+
 
 button {
     @apply rounded-full h-[30px] w-[100px] bg-gradient-to-r from-primary via-primary via-primary to-gradient transition-all ease-in-out cursor-pointer text-white hover:-translate-y-1 ;
 }
-a{
+
+a {
     @apply transition-all ease-in-out hover:text-primary hover:translate-y-[-1px];
+}
+
+span{
+    @apply bg-gradient-to-r from-gradient via-gradient via-gradient to-primary text-transparent bg-clip-text
+}
+
+.gradient {
+    @apply bg-gradient-to-r from-primary via-primary via-primary to-gradient
 }
