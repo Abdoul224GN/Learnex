@@ -3,7 +3,7 @@
 @theme {
     --color-background: #f9f9f9;
     --color-foreground: #292627;
-    --color-muted: #efefef;
+    --color-muted: #fdfdfd;
     --color-muted-foreground: #818181;
     --color-popover: #ffffff;
     --color-popover-foreground: #1a1a1a;
@@ -16,7 +16,7 @@
     --color-primary-foreground: #ffffff;
     --color-secondary: #dadada;
     --color-secondary-foreground: #1a1a1a;
-    --color-accent: #0084ff;
+    --color-accent: #0061ff;
     --color-accent-foreground: #ffffff;
     --color-destructive: #f76b61;
     --color-destructive-foreground: #ffffff;
@@ -31,7 +31,7 @@
 }
 
 body {
-    @apply leading-tight  bg-background text-foreground;
+    @apply leading-tight  bg-background text-foreground tracking-wide;
 }
 
 
@@ -40,7 +40,7 @@ button {
 }
 
 a {
-    @apply transition-all ease-in-out hover:text-primary hover:translate-y-[-1px];
+    @apply transition-all ease-in-out hover:text-primary;
 }
 
 span{
