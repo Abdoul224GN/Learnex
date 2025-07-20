@@ -35,8 +35,8 @@ body {
 }
 
 button {
-    @apply rounded-full h-[30px] w-[100px] bg-gradient-to-r from-primary via-primary via-primary to-gradient text-white ;
+    @apply rounded-full h-[30px] w-[100px] bg-gradient-to-r from-primary via-primary via-primary to-gradient transition-all ease-in-out cursor-pointer text-white hover:-translate-y-1 ;
 }
 a{
-    @apply transition hover:text-primary;
+    @apply transition-all ease-in-out hover:text-primary hover:translate-y-[-1px];
 }
