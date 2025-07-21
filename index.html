@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -12,11 +12,10 @@
 <header class="z-50 fixed backdrop-blur-sm bg-white/50 flex flex-row font-medium items-center  justify-between w-full  top-0 rounded-b-2xl shadow-md p-4 px-10">
     <p class="text-primary text-2xl">Site vitrine</p>
     <nav class="flex flex-row gap-x-5 leading-loose ">
-        <a href="#" class="hover:translate-y-[-1px]">A propos</a>
-        <a href="#" class="hover:translate-y-[-1px]">Programme</a>
-        <a href="#" class="hover:translate-y-[-1px]">Nos partenaires</a>
-        <a href="#" class="hover:translate-y-[-1px]">Evenement</a>
-        <a href="#" class="hover:translate-y-[-1px]">Contact</a>
+        <a href="#apropos" class="hover:translate-y-[-1px]">A propos</a>
+        <a href="#categorie" class="hover:translate-y-[-1px]">Formation</a>
+        <a href="#specialisation" class="hover:translate-y-[-1px]">Spécialisation</a>
+        <a href="#contact" class="hover:translate-y-[-1px]">Contact</a>
     </nav>
     <button class="bg-gradient-primary">Postuler</button>
 </header>
@@ -76,6 +75,7 @@
         </div>
     </div>
 </section>
+<p id="apropos"></p>
 <section class="px-20 mt-20  ">
     <div class="grid grid-cols-[1fr_0.75fr] gap-x-10 bg-muted p-10 border border-border rounded-4xl shadow">
         <div class="">
@@ -115,8 +115,9 @@
         </div>
     </div>
 </section>
-<section class="px-20 mt-20 flex flex-col items-center">
-    <p class="text-3xl font-bold mb-5">Nos categories de formations</p>
+<p id="categorie"></p>
+<section  class="px-20 mt-20 flex flex-col items-center">
+    <p  class="text-3xl font-bold mb-5">Nos categories de formations</p>
     <p class="mb-10 text-[17px] text-center">Que vous débutiez dans le numérique ou que vous soyez déjà expérimenté,
         découvrez la formation faite pour vous. Développez vos compétences et préparez-vous aux métiers de demain.
     </p>
@@ -164,6 +165,17 @@
 </section>
 <section class="px-20 mt-20  ">
     <div class="grid grid-cols-[0.75fr_1fr] gap-x-10 bg-muted p-10 border border-border rounded-4xl shadow">
+        <div class="">
+            <img src="public/photo6.jpg" alt="photo1" class="rounded-3xl border border-accent/50 ">
+        </div>
+        <div class="flex flex-col justify-center gap-y-5">
+            <span class="font-medium text-4xl">Se former en présentiel</span>
+            <p>Plongez au cœur d’un environnement d’apprentissage stimulant, en équipe et encadré par des formateurs
+                pour une expérience immersive et collaborative.</p>
+            <button class="w-[320px]">Découvrir les formations présentiel</button>
+        </div>
+    </div>
+    <div class="grid grid-cols-[1fr_0.75fr] mt-10 gap-x-10 bg-muted p-10 border border-border rounded-4xl shadow">
         <div class="flex flex-col justify-center gap-y-5">
             <span class="font-medium text-4xl">Se former à distance</span>
             <p>À la recherche de flexibilité, optez pour une formation à distance et bénéficiez du même accompagnement
@@ -175,7 +187,8 @@
         </div>
     </div>
 </section>
-<section class="px-20 mt-20">
+<p id="specialisation"></p>
+<section id="" class="px-20 mt-20">
     <p class="text-3xl font-bold mb-5">Découvrez nos spécialisations en programmation informatique</p>
     <p class="mb-10 text-[17px]">Choisissez la voie qui vous passionne parmi nos spécialisations Tech les plus
         recherchées du marché.</p>
@@ -222,7 +235,8 @@
         </div>
     </div>
 </section>
-<section class="px-20 my-20">
+<p id="contact"></p>
+<section id="" class="px-20 my-20">
     <div class="rounded-3xl flex items-center justify-center gap-x-5 bg-gradient-to-r from-primary  to-gradient h-[200px]">
         <p class="text-center text-white font-bold text-4xl">Prêt à lancer votre carrière en informatique ?</p>
         <a class="flex items-center border border-border h-[40px] shadow text-foreground font-medium bg-muted rounded-full px-5 hover:-translate-y-1">Postuler</a>
@@ -267,5 +281,6 @@
     </div>
 
 </section>
+<script src="src/script.js" ></script>
 </body>
 </html>
