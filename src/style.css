@@ -3,7 +3,7 @@
 @theme {
     --color-background: #ffffff;
     --color-foreground: #000000;
-    --color-muted: #fdfdfd;
+    --color-muted: rgba(255, 255, 255, 0.76);
     --color-muted-foreground: #818181;
     --color-popover: #ffffff;
     --color-popover-foreground: #1a1a1a;
