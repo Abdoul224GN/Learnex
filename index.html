@@ -12,14 +12,14 @@
 <header class="z-50 fixed backdrop-blur-sm bg-white/50 flex flex-row font-medium items-center  justify-between w-full  top-0 rounded-b-2xl shadow-md p-4 px-10">
     <p class="text-primary text-2xl">Site vitrine</p>
     <nav class="flex flex-row gap-x-5 leading-loose ">
-        <a href="#apropos" class="hover:translate-y-[-1px]">A propos</a>
-        <a href="#categorie" class="hover:translate-y-[-1px]">Formation</a>
-        <a href="#specialisation" class="hover:translate-y-[-1px]">Spécialisation</a>
-        <a href="#contact" class="hover:translate-y-[-1px]">Contact</a>
+        <a href="#apropos" class="hover:translate-y-[-1px]" id="link-section1">A propos</a>
+        <a href="#categorie" class="hover:translate-y-[-1px]" id="link-section2">Formation</a>
+        <a href="#specialisation" class="hover:translate-y-[-1px]" id="link-section3">Spécialisation</a>
+        <a href="#contact" class="hover:translate-y-[-1px]" id="link-section4">Contact</a>
     </nav>
     <button class="bg-gradient-primary">Postuler</button>
 </header>
-<section class="px-20 mt-20">
+<section data-aos="zoom-in-up" class="px-20 mt-20">
     <!--
     <div style="background:url('./public/hero-bg.jpg')" class="bg-cover bg-center w-[1000px] h-[563px]">
     </div>
@@ -76,8 +76,8 @@
     </div>
 </section>
 <p id="apropos"></p>
-<section class="px-20 mt-20  ">
-    <div class="grid grid-cols-[1fr_0.75fr] gap-x-10 bg-muted p-10 border border-border rounded-4xl shadow">
+<section  class="px-20 mt-20  ">
+    <div data-aos="fade-up" class="grid grid-cols-[1fr_0.75fr] gap-x-10 bg-muted p-10 border border-border rounded-4xl shadow">
         <div class="">
             <img src="public/photo2.jpg" alt="photo1" class="rounded-3xl border border-accent/50 ">
         </div>
@@ -96,7 +96,7 @@
             <button class="mt-5">Découvre notre méthodologie</button>
         </div>
     </div>
-    <div class="grid grid-cols-4 gap-x-5 mt-15">
+    <div data-aos="fade-up" class="grid grid-cols-4 gap-x-5 mt-15">
         <div class="flex flex-col items-center justify-between bg-muted p-6 border border-border rounded-2xl shadow transition-all ease-in hover:-translate-y-2">
             <p class="text-5xl font-medium stat">95%</p>
             <p class="font-medium">DE PRATIQUE</p>
@@ -117,11 +117,11 @@
 </section>
 <p id="categorie"></p>
 <section  class="px-20 mt-20 flex flex-col items-center">
-    <p  class="text-3xl font-bold mb-5">Nos categories de formations</p>
-    <p class="mb-10 text-[17px] text-center">Que vous débutiez dans le numérique ou que vous soyez déjà expérimenté,
+    <p data-aos="fade-up" class="text-3xl font-bold mb-5">Nos categories de formations</p>
+    <p data-aos="fade-up" class="mb-10 text-[17px] text-center">Que vous débutiez dans le numérique ou que vous soyez déjà expérimenté,
         découvrez la formation faite pour vous. Développez vos compétences et préparez-vous aux métiers de demain.
     </p>
-    <div class=" grid grid-cols-4 gap-x-5">
+    <div data-aos="fade-up" class=" grid grid-cols-4 gap-x-5">
         <div class="flex flex-col justify-between bg-muted p-6 border border-border rounded-2xl shadow h-[300px] transition-all ease-in hover:-translate-y-2">
             <div>
                 <p class="font-medium text-[18px]">Développement</p>
@@ -163,8 +163,8 @@
         </div>
     </div>
 </section>
-<section class="px-20 mt-20  ">
-    <div class="grid grid-cols-[0.75fr_1fr] gap-x-10 bg-muted p-10 border border-border rounded-4xl shadow">
+<section  class="px-20 mt-20  ">
+    <div data-aos="fade-right" class="grid grid-cols-[0.75fr_1fr] gap-x-10 bg-muted p-10 border border-border rounded-4xl shadow">
         <div class="">
             <img src="public/photo6.jpg" alt="photo1" class="rounded-3xl border border-accent/50 ">
         </div>
@@ -175,7 +175,7 @@
             <button class="w-[320px]">Découvrir les formations présentiel</button>
         </div>
     </div>
-    <div class="grid grid-cols-[1fr_0.75fr] mt-10 gap-x-10 bg-muted p-10 border border-border rounded-4xl shadow">
+    <div data-aos="fade-left" class="grid grid-cols-[1fr_0.75fr] mt-10 gap-x-10 bg-muted p-10 border border-border rounded-4xl shadow">
         <div class="flex flex-col justify-center gap-y-5">
             <span class="font-medium text-4xl">Se former à distance</span>
             <p>À la recherche de flexibilité, optez pour une formation à distance et bénéficiez du même accompagnement
@@ -189,14 +189,14 @@
 </section>
 <p id="specialisation"></p>
 <section id="" class="px-20 mt-20">
-    <p class="text-3xl font-bold mb-5">Découvrez nos spécialisations en programmation informatique</p>
-    <p class="mb-10 text-[17px]">Choisissez la voie qui vous passionne parmi nos spécialisations Tech les plus
+    <p data-aos="fade-up" class="text-3xl font-bold mb-5">Découvrez nos spécialisations en programmation informatique</p>
+    <p data-aos="fade-up" class="mb-10 text-[17px]">Choisissez la voie qui vous passionne parmi nos spécialisations Tech les plus
         recherchées du marché.</p>
     <div class=" grid grid-cols-[0.75fr_1fr] gap-x-7">
-        <div>
+        <div data-aos="fade-right">
             <img src="public/photo4.jpg" class="rounded-3xl border border-accent/50 " alt="spécialitéIimage">
         </div>
-        <div class="flex flex-col  justify-between">
+        <div data-aos="fade-left" class="flex flex-col  justify-between">
             <div class="bg-muted p-5 border border-border rounded-2xl shadow transition-all ease-in hover:translate-x-2">
                 <p class="font-medium text-[18px]">Développement Web</p>
                 <p class="tracking-wide leading-normal mt-2">
@@ -237,11 +237,11 @@
 </section>
 <p id="contact"></p>
 <section id="" class="px-20 my-20">
-    <div class="rounded-3xl flex items-center justify-center gap-x-5 bg-gradient-to-r from-primary  to-gradient h-[200px]">
+    <div data-aos="fade-up" class="rounded-3xl flex items-center justify-center gap-x-5 bg-gradient-to-r from-primary  to-gradient h-[200px]">
         <p class="text-center text-white font-bold text-4xl">Prêt à lancer votre carrière en informatique ?</p>
         <a class="flex items-center border border-border h-[40px] shadow text-foreground font-medium bg-muted rounded-full px-5 hover:-translate-y-1">Postuler</a>
     </div>
-    <div class="flex flex-row justify-end gap-x-2 mt-10">
+    <div data-aos="fade-up" class="flex flex-row justify-end gap-x-2 mt-10">
         <a href="#"><img class="bg-accent p-1 rounded-full w-[40px]" src="public/icon/facebook.png" alt="facebook"></a>
         <a href="#"><img class="bg-accent p-1 rounded-full w-[40px]" src="public/icon/instagram.png"
                          alt="instagram"></a>
@@ -254,7 +254,7 @@
         <div>
             <img src="public/photo5.jpg" class="rounded-3xl border border-accent/50" alt="contactImage">
         </div>
-        <div>
+        <div data-aos="fade-left">
             <p class="text-3xl font-bold mb-2">Nous sommes à votre écoute ! </p>
             <p class="text-[17px] mb-5">Vous avez une question ? Une remarque ? Envoyez-nous un message, et nous vous
                 répondrons dans les plus brefs délais.</p>
@@ -281,6 +281,6 @@
     </div>
 
 </section>
-<script src="src/script.js" ></script>
+<script  type="module" src="src/script.js"></script>
 </body>
 </html>
