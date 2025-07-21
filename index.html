@@ -181,7 +181,7 @@
         recherchées du marché.</p>
     <div class=" grid grid-cols-[0.75fr_1fr] gap-x-7">
         <div>
-            <img src="public/photo4.jpg" class="rounded-3xl border border-accent/50 ">
+            <img src="public/photo4.jpg" class="rounded-3xl border border-accent/50 " alt="spécialitéIimage">
         </div>
         <div class="flex flex-col  justify-between">
             <div class="bg-muted p-5 border border-border rounded-2xl shadow transition-all ease-in hover:translate-x-2">
@@ -221,6 +221,51 @@
             </div>
         </div>
     </div>
+</section>
+<section class="px-20 my-20">
+    <div class="rounded-3xl flex items-center justify-center gap-x-5 bg-gradient-to-r from-primary  to-gradient h-[200px]">
+        <p class="text-center text-white font-bold text-4xl">Prêt à lancer votre carrière en informatique ?</p>
+        <a class="flex items-center border border-border h-[40px] shadow text-foreground font-medium bg-muted rounded-full px-5 hover:-translate-y-1">Postuler</a>
+    </div>
+    <div class="flex flex-row justify-end gap-x-2 mt-10">
+        <a href="#"><img class="bg-accent p-1 rounded-full w-[40px]" src="public/icon/facebook.png" alt="facebook"></a>
+        <a href="#"><img class="bg-accent p-1 rounded-full w-[40px]" src="public/icon/instagram.png"
+                         alt="instagram"></a>
+        <a href="#"><img class="bg-accent p-1 rounded-full w-[40px]" src="public/icon/twitter.png" alt="twitter"></a>
+        <a href="#"><img class="bg-accent p-1 rounded-full w-[40px]" src="public/icon/linkedin.png" alt="linkedin"></a>
+        <a href="#"><img class="bg-accent p-1 rounded-full w-[40px]" src="public/icon/youtube.png" alt="youtube"></a>
+    </div>
+
+    <div class=" grid grid-cols-[0.75fr_1fr] gap-x-10 mt-10">
+        <div>
+            <img src="public/photo5.jpg" class="rounded-3xl border border-accent/50" alt="contactImage">
+        </div>
+        <div>
+            <p class="text-3xl font-bold mb-2">Nous sommes à votre écoute ! </p>
+            <p class="text-[17px] mb-5">Vous avez une question ? Une remarque ? Envoyez-nous un message, et nous vous
+                répondrons dans les plus brefs délais.</p>
+            <form class="flex flex-col gap-3 bg-muted p-10 shadow border border-border rounded-3xl" id="createForm">
+                <label class="flex flex-col" for="nom">Nom
+                    <input class="bg-input border border-border rounded-sm p-1" id="nom" name="date"
+                           type="text">
+                </label>
+                <label class="flex flex-col" for="prenom">Prénom
+                    <input class="bg-input border border-border rounded-md p-1" id="prenom" name="prenom"
+                           type="text">
+                </label>
+                <label class="flex flex-col" for="email">Email
+                    <input class="bg-input border border-border rounded-md p-1" id="email" name="email"
+                           type="text">
+                </label>
+                <label class="flex flex-col" for="message">Message
+                    <textarea class="bg-input border border-border rounded-sm p-1" id="message" rows="4" name="message"
+                              type="text"></textarea>
+                </label>
+                <button class="bg-primary rounded-sm p-1">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
 </section>
 </body>
 </html>
