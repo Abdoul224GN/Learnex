@@ -50,12 +50,6 @@ Pour contribuer :
 4. Pushez vers la branche (`git push origin feature/NouvelleFonctionnalite`)
 5. Ouvrez une Pull Request
 
-## Licence
-
-Ce projet est sous licence [MIT](LICENSE).
-
-## Contact
-
 Pour toute question ou information, ouvrez une issue ou contactez [Abdoul224GN](https://github.com/Abdoul224GN).
 
 ---
